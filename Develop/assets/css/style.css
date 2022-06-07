@@ -4,10 +4,12 @@
   margin: 0;
 }
 
+/* controls body styling */
 body {
   background-color: #d9dcd6;
 }
 
+/* controls header styling */
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,15 +18,18 @@ body {
   color: #ffffff;
 }
 
+/* controls h1 element styling in header  */
 .header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/* controls colors of seo class in header h1 element */
 .header h1 .seo {
   color: #d9dcd6;
 }
 
+/* controls header div styling */
 .header div {
   padding-top: 15px;
   margin-right: 20px;
@@ -34,24 +39,29 @@ body {
   font-size: 20px;
 }
 
+/* removes bullets from ul element in header div */
 .header div ul {
   list-style-type: none;
 }
 
+/* styles li element in div ul */
 .header div ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
+/* makes hyperlink color white */
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* styles paragraph fontsize */
 p {
   font-size: 16px;
 }
 
+/* positions cover image */
 .hero {
   height: 800px;
   width: 100%;
@@ -61,22 +71,26 @@ p {
   background-position: center;
 }
 
+/* styles float-left class to the left and defines right margin */
 .float-left {
   float: left;
   margin-right: 25px;
 }
 
+/* styles float-right class to the right and defines left margin */
 .float-right {
   float: right;
   margin-left: 25px;
 }
 
+/* styles the elements within content class */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/* styles elements within benefits class */
 .benefits {
   margin-right: 20px;
   margin-bottom: 32px;
@@ -91,18 +105,21 @@ p {
   background-color: #2589bd;
 }
 
+/* styles h3 element within benefits class */
 .benefits h3 {
   margin-bottom: 10px;
   text-align: center;
   padding: 20px;
 }
 
+/* styles img element within benefits class */
 .benefits img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
+/* styles marketing class */
 .marketing {
   margin-bottom: 20px;
   padding: 50px;
@@ -113,15 +130,18 @@ p {
   color: #ffffff;
 }
 
-.marketing img {
-  max-height: 200px;
-}
-
+/* styles h2 element within the marketing class */
 .marketing h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
+/* styles img element within the marketing class */
+.marketing img {
+  max-height: 200px;
+}
+
+/* styles the footer class */
 .footer {
   padding: 30px;
   clear: both;
@@ -130,6 +150,7 @@ p {
   text-align: center;
 }
 
+/* styles the h2 element in the footer class */
 .footer h2 {
   font-size: 20px;
 }
