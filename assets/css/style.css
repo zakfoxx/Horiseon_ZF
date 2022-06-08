@@ -90,6 +90,28 @@ p {
   margin-left: 20px;
 }
 
+/* styles marketing class */
+.marketing {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/* styles h2 element within the marketing class */
+.marketing h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* styles img element within the marketing class */
+.marketing img {
+  max-height: 200px;
+}
+
 /* styles elements within benefits class */
 .benefits {
   margin-right: 20px;
@@ -119,28 +141,6 @@ p {
   max-width: 150px;
 }
 
-/* styles marketing class */
-.marketing {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
-    sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-/* styles h2 element within the marketing class */
-.marketing h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-/* styles img element within the marketing class */
-.marketing img {
-  max-height: 200px;
-}
-
 /* styles the footer class */
 .footer {
   padding: 30px;
@@ -150,7 +150,7 @@ p {
   text-align: center;
 }
 
-/* styles the h2 element in the footer class */
-.footer h2 {
+/* styles the h4 element in the footer class */
+.footer h4 {
   font-size: 20px;
 }
