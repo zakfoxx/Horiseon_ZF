@@ -14,4 +14,4 @@ Added a descriptive title
 
 https://zakfoxx.github.io/Horiseon_ZF/
 
-![Alt text](/assets/images/Screenshot.png)
+![alt text](/assets/images/Screenshot.png)
